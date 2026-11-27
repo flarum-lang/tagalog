@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/tagalog",
+	"description": "Tagalog Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Tagalog language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/tagalog",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"tl-locale",
-		"tagalog-locale",
-		"tagalog"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/tagalog",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/tagalog/issues",
+		"forum": "https://discuss.flarum.org/d/40218",
 		"source": "https://github.com/flarum-lang/tagalog"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Tagalog",
 			"category": "language",
@@ -34,12 +31,6 @@
 		"flarum-locale": {
 			"code": "tl",
 			"title": "Tagalog"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
